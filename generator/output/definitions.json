@@ -16348,6 +16348,36 @@
       "stname": ""
     }
   ],
+  "igGetWindowScrollbarRect": [
+    {
+      "args": "(ImRect *pOut,ImGuiWindow* window,ImGuiAxis axis)",
+      "argsT": [
+        {
+          "name": "pOut",
+          "type": "ImRect*"
+        },
+        {
+          "name": "window",
+          "type": "ImGuiWindow*"
+        },
+        {
+          "name": "axis",
+          "type": "ImGuiAxis"
+        }
+      ],
+      "argsoriginal": "(ImGuiWindow* window,ImGuiAxis axis)",
+      "call_args": "(window,axis)",
+      "cimguiname": "igGetWindowScrollbarRect",
+      "defaults": [],
+      "funcname": "GetWindowScrollbarRect",
+      "namespace": "ImGui",
+      "nonUDT": 1,
+      "ov_cimguiname": "igGetWindowScrollbarRect",
+      "ret": "void",
+      "signature": "(ImGuiWindow*,ImGuiAxis)",
+      "stname": ""
+    }
+  ],
   "igGetWindowSize": [
     {
       "args": "(ImVec2 *pOut)",
@@ -21248,7 +21278,7 @@
       "funcname": "PlotEx",
       "namespace": "ImGui",
       "ov_cimguiname": "igPlotEx",
-      "ret": "void",
+      "ret": "int",
       "signature": "(ImGuiPlotType,const char*,float(*)(void*,int),void*,int,int,const char*,float,float,ImVec2)",
       "stname": ""
     }

@@ -4052,7 +4052,7 @@
         "type": "int"
       },
       {
-        "name": "PrivateClipboard",
+        "name": "ClipboardHandlerData",
         "template_type": "char",
         "type": "ImVector_char"
       },
